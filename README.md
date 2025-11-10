@@ -5,6 +5,8 @@ Volos Projects YouTube video made me aware of this affordable, full feature ESP3
 
 Waveshare provide a number of examples:  https://www.waveshare.com/wiki/ESP32-S3-ePaper-1.54
 
+Here is Waveshare's github repository for their examples:  https://github.com/waveshareteam/ESP32-S3-ePaper-1.54
+
 One of them shows how to use the power button to turn the product on and off.  When turned on, "ON" is written to the EPD and the onboard LED flashes.  When turne off, "OFF" is written to the EPD and the onboard LED is turned off.
 
-All this code does is remove the LVGL EPD code and replace it with GXEPD2.  
+All this code does is remove the LVGL EPD code and replace it with GXEPD2.  The bulk of the modifications were done by ChatGPT.
